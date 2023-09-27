@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fast-api-a
+spec:
+ containers:
+ - name: fast-api-a-cont
+   image: rash77/fast-api-a:v1.0
+   ports:
+   - containerPort: 8000
