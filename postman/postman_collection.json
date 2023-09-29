@@ -1,0 +1,85 @@
+[
+	{
+		"name": "arch.homework/otusapp/alex/health/",
+		"request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+				"raw": "arch.homework/otusapp/alex/health/",
+				"host": [
+					"arch",
+					"homework"
+				],
+				"path": [
+					"otusapp",
+					"alex",
+					"health",
+					""
+				]
+			}
+		},
+		"response": []
+	},
+	{
+		"name": "arch.homework/otusapp/john/health/",
+		"request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+				"raw": "arch.homework/otusapp/john/health/",
+				"host": [
+					"arch",
+					"homework"
+				],
+				"path": [
+					"otusapp",
+					"john",
+					"health",
+					""
+				]
+			}
+		},
+		"response": []
+	},
+	{
+		"name": "arch.homework/otusapp/health/",
+		"request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+				"raw": "arch.homework/otusapp/health/",
+				"host": [
+					"arch",
+					"homework"
+				],
+				"path": [
+					"otusapp",
+					"health",
+					""
+				]
+			}
+		},
+		"response": []
+	},
+	{
+		"name": "arch.homework/otusapp/john/health/smth",
+		"request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+				"raw": "arch.homework/otusapp/john/health/smth",
+				"host": [
+					"arch",
+					"homework"
+				],
+				"path": [
+					"otusapp",
+					"john",
+					"health",
+					"smth"
+				]
+			}
+		},
+		"response": []
+	}
+]
