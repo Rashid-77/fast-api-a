@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fast-api-a-dp
+  name: myapp1-dp
   labels:
-    app: fast-api-a-dp
+    app: myapp1-dp
 spec:
   replicas: 2
   minReadySeconds: 10
@@ -21,7 +21,7 @@ spec:
         env: prod
     spec:
       containers:
-      - name: fast-api-a-cont
+      - name: myapp1-cont
         image: rash77/fast-api-a:v1.0
         ports:
         - containerPort: 8000
